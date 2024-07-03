@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+<parameter name="username" value="vishnunath"></parameter>
+  <test thread-count="5" name="Test">
+  <parameter name="password" value="9944077673"></parameter>
+    <classes>
+      <class name="org.parllel.FaceBook"/>
+      <class name="org.parllel.FaceBook2"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

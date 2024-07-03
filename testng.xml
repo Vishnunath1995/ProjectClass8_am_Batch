@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="usernae" value="vishnunath"></parameter>
+  <parameter name="password" value="9944077673"></parameter>
+    <classes>
+      <class name="org.facebook.FaceBook2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
